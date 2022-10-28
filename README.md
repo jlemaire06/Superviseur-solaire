@@ -1,1 +1,2 @@
 # Superviseur-solaire
+Basée sur un ESP32, cette application affiche en temps réel la puissance produite par une installation photovoltaïque avec un onduleur Fronius GEN24 Plus, ainsi que la puissance consommée localement. Elle enregistre les moyennes de ces puissances périodiquement (5mn) sur une carte SD dans des fichiers journaliers de type texte délimité (.csv). Elle peut aussi estimer les énergies journalières produites et consommées et les afficher.
